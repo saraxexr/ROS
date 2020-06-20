@@ -1,1 +1,20 @@
+# ROS
+تثبيت نظام روز على نظام تشغيل اوبنتو تثبيت ROS Noetic على نظام التشغيل Ubuntu 20.04 الأخير بعد تثبيت نظام تشغيل اوبنتو 20.04 Virtualbox يجب تثبيت آخر إصدار من نظام
+
+نقوم بفتح الترمينال
+Alt / Ctrl / T
+
+نكتب الكود التالي:
+wget -c https://raw.githubusercontent.com/qboticslabs/ros_install_noetic/master/ros_install_noetic.sh && chmod + x ./ros_install_noetic.sh &&. / ros_install_noetic.sh
+
+ثم أدخل
+أدخل سيطلب منا كلمة مرور الحساب ندخلها لكنها لن تظهر ونضغط
+1 ثم أدخل ننتظر بعض الوقت حتى يتوقف التحميل نضغط
+مكتب كامل سيتم تثبيت
+بعد انتهاء التثبيت نقوم باستعراض النسخة
+تأكد من أن التثبيت تم نكتب الكود التالي:
+rosversion -d
+
+تشير لنجاح التثبيت
+
 
